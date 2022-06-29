@@ -2,16 +2,16 @@
 function threeParams(num1, num2, op) {
     if (op === '+') {
         let plus = num1 + num2;
-        console.log(plus);
+        return plus;
     } else if (op === '-') {
         let minus = num1 - num2;
-        console.log(minus);
+        return minus;
     } else if (op === "*") {
         let multi = num1 * num2;
-        console.log(multi);
+        return multi;
     } else if (op === "/") {
         let divi = num1 / num2;
-        console.log(divi);
+        return divi;
     }
 
 }
